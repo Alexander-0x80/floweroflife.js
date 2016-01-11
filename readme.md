@@ -11,18 +11,13 @@ var layers = 4;
 // Generate 4 layers, starting from x0,y0
 var f = flower(0,0 , radius, layers);
 
-f.layers();
-// Returns layered points
-// Array [ Array[1], Array[6], Array[19], Array[39], Array[57] ]
-f.points();
-// Returns all of the flower points ( layers flattened )
-// Array [ Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, 112 more… ]
-f.points()[0];
-// Object { x: 0, y: 0 }
+f.layers(); // Returns layered points
+f.points(); // Returns all of the flower points ( layers flattened )
+f.points()[0]; // Object { x: 0, y: 0 }
 
 ```
 
-When points are generated you may draw the pattern with your library of choice:
+When points are generated you may draw the pattern with your favorite library of choice:
 
 ```javascript
 
