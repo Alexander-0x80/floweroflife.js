@@ -14,16 +14,16 @@
     ];
 
     /**
-    * @param  {Array} arr 
-    * @return {Array}
+    * @param  {Array} arr 2d
+    * @return {Array}     1d
     */
     var flatten = function (arr) {
         return [].concat.apply([], arr);
     }
 
     /**
-    * @param  {Number} x 
-    * @param  {Number} y 
+    * @param  {Number} point_x 
+    * @param  {Number} point_y 
     * @return {{x: Number, y: Number}}
     */
     var create_point = function (point_x, point_y) {
@@ -66,7 +66,7 @@
         points: Function,
       }}
     */
-    var flower = function(seed_x, seed_y, radius, layers_no) {
+    var flower = function (seed_x, seed_y, radius, layers_no) {
         // Layer 0 is the seed
         var layers = [[create_point(seed_x, seed_y)]];
         var layer, angle, point, p;
@@ -103,7 +103,7 @@
     }
 
     // Avoind module conflicts
-    flower.no_conflict = function() {
+    flower.no_conflict = function () {
         root.flower = previous_flower;
         return flower;
     }
