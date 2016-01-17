@@ -1,0 +1,25 @@
+{
+  "name": "floweroflife",
+  "version": "1.0.0",
+  "homepage": "https://github.com/Alexander-0x80/floweroflife.js",
+  "authors": [
+    "Alexander Ovchinnikov <alex.jce@gmail.com>"
+  ],
+  "description": "generates a set of points ( circle centers ) which form the mystical flower of life pattern",
+  "main": "src/flowerfoflife.js",
+  "moduleType": [
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "floweroflife"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

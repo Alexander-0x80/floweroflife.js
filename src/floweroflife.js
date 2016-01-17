@@ -74,7 +74,7 @@
             // Reserve space for next layer
             layers.push([]);
             for (point = 0; point < layers[layer].length; point++) {
-                for (angle=0; angle < angles.length; angle++) {
+                for (angle = 0; angle < angles.length; angle++) {
                     p = rotate_point(create_point(
                             layers[layer][point].x,
                             layers[layer][point].y - radius),
