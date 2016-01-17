@@ -17,17 +17,4 @@ f.points()[0]; // Object { x: 0, y: 0 }
 
 ```
 
-When points are generated you may draw the pattern with your favorite library of choice:
-
-```javascript
-
-// Image size
-var size_x = 800, size_y = 600;
-var radius = 40;
-
-// Using snapsvg.io here
-var s = Snap(size_x, size_y);
-var f = flower(size_x / 2, size_y / 2, radius, 4);
-f.points().forEach((p) => s.circle(p.x, p.y, radius));
-
-```
+This is a jsfiddle [demo](https://jsfiddle.net/7knn3x2d/2/) that uses [snap.svg](http://snapsvg.io/) to draw the pattern. Use any drawing library of your choice and create your flower.
