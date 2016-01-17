@@ -17,4 +17,6 @@ f.points()[0]; // Object { x: 0, y: 0 }
 
 ```
 
-This is a jsfiddle [demo](https://jsfiddle.net/7knn3x2d/2/) that uses [snap.svg](http://snapsvg.io/) to draw the pattern. Use any drawing library of your choice and create your flower.
+--------------------------
+
+Here is a jsfiddle [demo](https://jsfiddle.net/7knn3x2d/3/) that uses [snap.svg](http://snapsvg.io/) to draw the pattern. Use any drawing library of your choice and create your flower.
