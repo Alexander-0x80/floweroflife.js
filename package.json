@@ -1,0 +1,22 @@
+{
+  "name": "floweroflife",
+  "version": "1.0.0",
+  "description": "generates a set of points ( circle centers ) which form the mystical flower of life pattern",
+  "main": "src/floweroflife.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "alexander ovchinnikov",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alexander-0x80/floweroflife.js.git"
+  },
+  "keywords": [
+    "floweroflife"
+  ],
+  "bugs": {
+    "url": "https://github.com/Alexander-0x80/floweroflife.js/issues"
+  },
+  "homepage": "https://github.com/Alexander-0x80/floweroflife.js#readme"
+}
